@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1913443984264837125}
   - component: {fileID: 1913443984253211909}
   - component: {fileID: 8036144874324397906}
+  - component: {fileID: 7204192037801967139}
   m_Layer: 0
   m_Name: Blox
   m_TagString: Untagged
@@ -119,3 +120,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1804075, y: 0.6917662, z: 1.8000004}
   m_Center: {x: -0.011766762, y: 0.3458831, z: -0.000016361475}
+--- !u!208 &7204192037801967139
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1913443984262571717}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.59000003, y: 0.34600002, z: 0.90000004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.012, y: 0.34600002, z: 0}
+  m_TimeToStationary: 0.5

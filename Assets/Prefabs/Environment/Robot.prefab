@@ -20,6 +20,7 @@ GameObject:
   - component: {fileID: 1781344218213211110}
   - component: {fileID: 3225933019332631922}
   - component: {fileID: 1926325790317761475}
+  - component: {fileID: 3771406395272519815}
   m_Layer: 0
   m_Name: Robot
   m_TagString: Untagged
@@ -221,3 +222,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.41180038
   m_Center: {x: 2.39, y: 0.56, z: 1.39}
+--- !u!208 &3771406395272519815
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 200660822608549831}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 2.091, y: 0.82600003, z: 3.0660002}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.809, y: 0.81900007, z: 0.20400001}
+  m_TimeToStationary: 0.5

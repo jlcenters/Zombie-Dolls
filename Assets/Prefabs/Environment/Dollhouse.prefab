@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 379063258052185891}
   - component: {fileID: 934652651049832653}
   - component: {fileID: 2262184544123612984}
+  - component: {fileID: 4649664159370753695}
   m_Layer: 0
   m_Name: Dollhouse
   m_TagString: Untagged
@@ -133,3 +134,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5284004, y: 2.056889, z: 0.8572464}
   m_Center: {x: -1.0424099, y: 1.0000823, z: 2.5832672}
+--- !u!208 &4649664159370753695
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379063258042809571}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 3.1430001, y: 5.2850003, z: 2.645}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.053000003, y: 5.2570004, z: -0.32}
+  m_TimeToStationary: 0.5

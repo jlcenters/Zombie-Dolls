@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 3455337762703701440}
   - component: {fileID: 2720199081220565986}
   - component: {fileID: 4838930904187168724}
+  - component: {fileID: 1772723238051148003}
   m_Layer: 0
   m_Name: Arches
   m_TagString: Untagged
@@ -161,3 +162,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5047026, y: 0.5460218, z: 0.30638885}
   m_Center: {x: 0.1691494, y: 0.21954304, z: 1.0465889}
+--- !u!208 &1772723238051148003
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3430311905094559078}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 0
+  m_Extents: {x: 1.96, y: 0.89500004, z: 1.96}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0.016, y: 0.841, z: 0.064}
+  m_TimeToStationary: 0.5

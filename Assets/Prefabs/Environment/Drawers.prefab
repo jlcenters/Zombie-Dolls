@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2154420636840138266}
   - component: {fileID: 7720075814354216578}
   - component: {fileID: 8038570096273431549}
+  - component: {fileID: 362099589498781572}
   m_Layer: 0
   m_Name: Drawers
   m_TagString: Untagged
@@ -133,3 +134,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 12.022585, y: 1.7723517, z: 6.786787}
   m_Center: {x: 0, y: 0.9199053, z: -0.34170437}
+--- !u!208 &362099589498781572
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2154420636832884186}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 6.011, y: 6.8360004, z: 4.8370004}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 6.8420005, z: 1.102}
+  m_TimeToStationary: 0.5

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3585673630810685983}
   - component: {fileID: 3585673630799310623}
   - component: {fileID: 3726924822519013261}
+  - component: {fileID: 5395065932826304924}
   m_Layer: 0
   m_Name: Bat
   m_TagString: Untagged
@@ -119,3 +120,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.146013, y: 10.628335, z: 1.1039429}
   m_Center: {x: -0.01004529, y: 5.3141675, z: -0.20575859}
+--- !u!208 &5395065932826304924
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3585673630808693983}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.0730001, y: 5.314, z: 0.55200005}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -0.010000001, y: 5.314, z: -0.20600002}
+  m_TimeToStationary: 0.5

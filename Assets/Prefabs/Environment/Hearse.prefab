@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6529372757527127575}
   - component: {fileID: 6529372757522090775}
   - component: {fileID: 1709421555375285464}
+  - component: {fileID: 4580422952151524391}
   m_Layer: 0
   m_Name: Hearse
   m_TagString: Untagged
@@ -119,3 +120,19 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.0559244, y: 1.8687115, z: 6.484761}
   m_Center: {x: 0, y: 0.93435526, z: 0}
+--- !u!208 &4580422952151524391
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6529372757529393367}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 1.028, y: 0.934, z: 3.242}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0.934, z: 0}
+  m_TimeToStationary: 0.5
